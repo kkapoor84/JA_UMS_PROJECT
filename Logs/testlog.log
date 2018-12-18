@@ -1,0 +1,18 @@
+2018-12-18 14:07:25.935 [main] INFO  com.ja.pages.AccountLoginPage - Clear the username field
+2018-12-18 14:07:25.978 [main] INFO  com.ja.pages.AccountLoginPage - Clear the password field
+2018-12-18 14:07:28.151 [main] INFO  com.ja.pages.AccountLoginPage - Enter username
+2018-12-18 14:07:30.284 [main] INFO  com.ja.pages.AccountLoginPage - Enter password
+2018-12-18 14:07:35.141 [main] INFO  com.ja.pages.AccountLoginPage - Click Login button
+2018-12-18 14:07:40.248 [main] INFO  com.ja.pages.AccountLoginPage - Text of Home link on home page is:Home
+2018-12-18 14:07:40.248 [main] INFO  com.ja.pages.AccountLoginPage - Home text is available on home page
+2018-12-18 14:07:44.846 [main] INFO  com.ja.pages.AccountLoginPage - User is Logged out and Application is closed | 
+2018-12-18 14:07:52.144 [main] INFO  com.ja.pages.AccountLoginPage - Clear the username field
+2018-12-18 14:07:52.190 [main] INFO  com.ja.pages.AccountLoginPage - Clear the password field
+2018-12-18 14:07:54.344 [main] INFO  com.ja.pages.AccountLoginPage - Enter username
+2018-12-18 14:07:56.472 [main] INFO  com.ja.pages.AccountLoginPage - Enter password
+2018-12-18 14:08:03.548 [main] INFO  com.ja.pages.AccountLoginPage - Click Login button
+2018-12-18 14:08:05.553 [main] INFO  com.ja.pages.ApproveRequestPage - ******Go to My Course->Approve Request to approve the request****
+2018-12-18 14:08:08.443 [main] INFO  com.ja.pages.ApproveRequestPage - Course Request Exist1Total Request Exist1Oldest Request Exist on Date12-18-2018
+2018-12-18 14:08:08.740 [main] INFO  com.ja.pages.ApproveRequestPage - Entered the text in search box
+2018-12-18 14:08:21.784 [main] INFO  com.ja.pages.ApproveRequestPage - 
+ Course Request Approved

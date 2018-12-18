@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-UAtestSuit">
+              <span class="suite-name border-passed">UAtestSuit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-UAtestSuit">
+                    <span>D:\Automation Stuff\Workspace For Testing\3pIllarSharedAssignment-master\src\test\resources\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-UAtestSuit">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-UAtestSuit">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-UAtestSuit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-UAtestSuit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-UAtestSuit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-UAtestSuit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-UAtestSuit" class="hide-methods passed suite-UAtestSuit"> (hide)</a> <!-- hide-methods passed suite-UAtestSuit -->
+                      <a href="#" panel-name="suite-UAtestSuit" class="show-methods passed suite-UAtestSuit"> (show)</a> <!-- show-methods passed suite-UAtestSuit -->
+                    </span>
+                    <div class="method-list-content passed suite-UAtestSuit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.ApproveRequestTest" hash-for-method="verifyCourseRequestApproved">verifyCourseRequestApproved</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.ApproveRequestTest" hash-for-method="verifyPostAPIAndLogin">verifyPostAPIAndLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.ApproveRequestTest" hash-for-method="verifyRequestFieldsTitle">verifyRequestFieldsTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.ApproveRequestTest" hash-for-method="verifyRequestHeaderInApproveRequest">verifyRequestHeaderInApproveRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.ApproveRequestTest" hash-for-method="verifyTableData">verifyTableData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.ApproveRequestTest" hash-for-method="verifyTableHeader">verifyTableHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.ApproveRequestTest" hash-for-method="verifyTotalNumberOfCourseRequest">verifyTotalNumberOfCourseRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.AccountLoginTest" hash-for-method="verifyloginWithInValidCredentials(educator, passworda)">verifyloginWithInValidCredentials(educator, passworda)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.AccountLoginTest" hash-for-method="verifyloginWithInValidCredentials(student, passwordc)">verifyloginWithInValidCredentials(student, passwordc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.AccountLoginTest" hash-for-method="verifyloginWithInValidCredentials(volunteer, passwordb)">verifyloginWithInValidCredentials(volunteer, passwordb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UAtestSuit" title="com.ja.test.AccountLoginTest" hash-for-method="verifyloginWithValidCredentials">verifyloginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-UAtestSuit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-UAtestSuit" class="panel UAtestSuit">
+          <div class="suite-UAtestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ja.test.ApproveRequestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCourseRequestApproved">
+                  </a> <!-- verifyCourseRequestApproved -->
+                  <span class="method-name">verifyCourseRequestApproved</span>
+                  <em>
+(Verified that Course Request is Approved)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPostAPIAndLogin">
+                  </a> <!-- verifyPostAPIAndLogin -->
+                  <span class="method-name">verifyPostAPIAndLogin</span>
+                  <em>
+(Verification of API Post request and Login to UMS screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRequestFieldsTitle">
+                  </a> <!-- verifyRequestFieldsTitle -->
+                  <span class="method-name">verifyRequestFieldsTitle</span>
+                  <em>
+(Verified the request fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRequestHeaderInApproveRequest">
+                  </a> <!-- verifyRequestHeaderInApproveRequest -->
+                  <span class="method-name">verifyRequestHeaderInApproveRequest</span>
+                  <em>
+(Verified the request header title on Approve Request Screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTableData">
+                  </a> <!-- verifyTableData -->
+                  <span class="method-name">verifyTableData</span>
+                  <em>
+(Verified the table data in Approve Request Screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTableHeader">
+                  </a> <!-- verifyTableHeader -->
+                  <span class="method-name">verifyTableHeader</span>
+                  <em>
+(Verified the table header in Approve Request Screeen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTotalNumberOfCourseRequest">
+                  </a> <!-- verifyTotalNumberOfCourseRequest -->
+                  <span class="method-name">verifyTotalNumberOfCourseRequest</span>
+                  <em>
+(Verifed the number of course request)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UAtestSuit-class-passed -->
+          <div class="suite-UAtestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ja.test.AccountLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginWithInValidCredentials(educator, passworda)">
+                  </a> <!-- verifyloginWithInValidCredentials(educator, passworda) -->
+                  <span class="method-name">verifyloginWithInValidCredentials</span>
+                  <span class="parameters">(educator, passworda)</span>
+                  <em>
+(Verification of login screen with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginWithInValidCredentials(student, passwordc)">
+                  </a> <!-- verifyloginWithInValidCredentials(student, passwordc) -->
+                  <span class="method-name">verifyloginWithInValidCredentials</span>
+                  <span class="parameters">(student, passwordc)</span>
+                  <em>
+(Verification of login screen with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginWithInValidCredentials(volunteer, passwordb)">
+                  </a> <!-- verifyloginWithInValidCredentials(volunteer, passwordb) -->
+                  <span class="method-name">verifyloginWithInValidCredentials</span>
+                  <span class="parameters">(volunteer, passwordb)</span>
+                  <em>
+(Verification of login screen with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginWithValidCredentials">
+                  </a> <!-- verifyloginWithValidCredentials -->
+                  <span class="method-name">verifyloginWithValidCredentials</span>
+                  <em>
+(Verification of login screen with valid credentails)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UAtestSuit-class-passed -->
+        </div> <!-- panel UAtestSuit -->
+        <div panel-name="test-xml-UAtestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation Stuff\Workspace For Testing\3pIllarSharedAssignment-master\src\test\resources\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;UAtestSuit&quot; parallel=&quot;methods&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.ja.utils.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Base_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ja.base.BaseTestClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Base_Test --&gt;
+  &lt;test name=&quot;Accountlogintest class Test Classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ja.test.AccountLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Accountlogintest class Test Classes --&gt;
+  &lt;test name=&quot;Approverequesttest class Test Classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ja.test.ApproveRequestTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Approverequesttest class Test Classes --&gt;
+&lt;/suite&gt; &lt;!-- UAtestSuit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-UAtestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for UAtestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Base_Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Accountlogintest class Test Classes (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Approverequesttest class Test Classes (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-UAtestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for UAtestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCourseRequestApproved</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPostAPIAndLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRequestFieldsTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRequestHeaderInApproveRequest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTableData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTableHeader</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTotalNumberOfCourseRequest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyloginWithInValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyloginWithValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCourseRequestApproved</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPostAPIAndLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRequestHeaderInApproveRequest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTableData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTotalNumberOfCourseRequest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyloginWithValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-UAtestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for UAtestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_UAtestSuit');
+function tableData_UAtestSuit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyloginWithValidCredentials')
+data.setCell(0, 2, 'com.ja.test.AccountLoginTest')
+data.setCell(0, 3, 22383);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyloginWithInValidCredentials')
+data.setCell(1, 2, 'com.ja.test.AccountLoginTest')
+data.setCell(1, 3, 13104);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyloginWithInValidCredentials')
+data.setCell(2, 2, 'com.ja.test.AccountLoginTest')
+data.setCell(2, 3, 13061);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyPostAPIAndLogin')
+data.setCell(3, 2, 'com.ja.test.ApproveRequestTest')
+data.setCell(3, 3, 11520);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCourseRequestApproved')
+data.setCell(4, 2, 'com.ja.test.ApproveRequestTest')
+data.setCell(4, 3, 10714);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyloginWithInValidCredentials')
+data.setCell(5, 2, 'com.ja.test.AccountLoginTest')
+data.setCell(5, 3, 9720);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyTableData')
+data.setCell(6, 2, 'com.ja.test.ApproveRequestTest')
+data.setCell(6, 3, 4596);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyRequestHeaderInApproveRequest')
+data.setCell(7, 2, 'com.ja.test.ApproveRequestTest')
+data.setCell(7, 3, 3284);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyTotalNumberOfCourseRequest')
+data.setCell(8, 2, 'com.ja.test.ApproveRequestTest')
+data.setCell(8, 3, 2297);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyTableHeader')
+data.setCell(9, 2, 'com.ja.test.ApproveRequestTest')
+data.setCell(9, 3, 2272);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyRequestFieldsTitle')
+data.setCell(10, 2, 'com.ja.test.ApproveRequestTest')
+data.setCell(10, 3, 2165);
+window.suiteTableData['UAtestSuit']= { tableData: data, tableDiv: 'times-div-UAtestSuit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-UAtestSuit">
+              </div> <!-- times-div-UAtestSuit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-UAtestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for UAtestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-UAtestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-UAtestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ja.test.ApproveRequestTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initStart</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ja.test.AccountLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initDriver</span>
+                <span class="method-start">5728 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyloginWithInValidCredentials(educator, passworda)</span>
+                <span class="method-start">6659 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyloginWithInValidCredentials(volunteer, passwordb)</span>
+                <span class="method-start">16381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyloginWithInValidCredentials(student, passwordc)</span>
+                <span class="method-start">29446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyloginWithValidCredentials</span>
+                <span class="method-start">42557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">64942 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ja.test.ApproveRequestTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">courseRequestAPI</span>
+                <span class="method-start">64955 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyPostAPIAndLogin</span>
+                <span class="method-start">65465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRequestHeaderInApproveRequest</span>
+                <span class="method-start">76987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRequestFieldsTitle</span>
+                <span class="method-start">80277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTotalNumberOfCourseRequest</span>
+                <span class="method-start">82447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTableHeader</span>
+                <span class="method-start">84749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTableData</span>
+                <span class="method-start">87023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCourseRequestApproved</span>
+                <span class="method-start">91622 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">deleteRecord1</span>
+                <span class="method-start">102338 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102642 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

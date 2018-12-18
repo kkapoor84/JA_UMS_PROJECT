@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UAtestSuit" parallel="true">
+
+	<listeners>
+		<listener class-name="com.ja.utils.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Base_Test" preserve-order="true">
+		<classes>
+			<class name="com.ja.base.BaseTestClass" />
+		</classes>
+	</test>
+
+	<test name="Regression Test in Accountlogintest class"
+		preserve-order="true">
+
+		<groups>
+			<run>
+				<include name="regression" />
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="com.ja.test.AccountLoginTest" />
+		</classes>
+
+
+	</test>
+
+	<test name="Regression Test in Approverequesttest class"
+		preserve-order="true">
+
+		<groups>
+			<run>
+				<include name="regression" />
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="com.ja.test.ApproveRequestTest" />
+		</classes>
+
+
+	</test>
+
+
+</suite> <!-- Suite -->

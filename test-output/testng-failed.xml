@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UAtestSuit]" parallel="methods">
+  <listeners>
+    <listener class-name="com.ja.utils.ExtentReporterNG"/>
+  </listeners>
+  <test name="Approverequesttest class Test Classes(failed)" parallel="methods">
+    <classes>
+      <class name="com.ja.test.ApproveRequestTest">
+        <methods>
+          <include name="verifyTotalNumberOfCourseRequest"/>
+          <include name="verifyPostAPIAndLogin"/>
+          <include name="deleteRecord1"/>
+          <include name="tearDown"/>
+          <include name="initStart"/>
+          <include name="verifyRequestHeaderInApproveRequest"/>
+          <include name="courseRequestAPI"/>
+        </methods>
+      </class> <!-- com.ja.test.ApproveRequestTest -->
+      <class name="com.ja.test.AccountLoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- com.ja.test.AccountLoginTest -->
+    </classes>
+  </test> <!-- Approverequesttest class Test Classes(failed) -->
+</suite> <!-- Failed suite [UAtestSuit] -->
