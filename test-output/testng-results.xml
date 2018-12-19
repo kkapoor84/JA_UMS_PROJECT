@@ -2,37 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="UAtestSuit" duration-ms="96936" started-at="2018-12-18T18:44:34Z" finished-at="2018-12-18T18:46:11Z">
+  <suite name="UAtestSuit" duration-ms="91816" started-at="2018-12-19T19:19:20Z" finished-at="2018-12-19T19:20:52Z">
     <groups>
       <group name="regression">
-        <method signature="AccountLoginTest.verifyloginWithInValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.ja.test.AccountLoginTest@3f49dace]" name="verifyloginWithInValidCredentials" class="com.ja.test.AccountLoginTest"/>
-        <method signature="AccountLoginTest.verifyloginWithValidCredentials()[pri:2, instance:com.ja.test.AccountLoginTest@3f49dace]" name="verifyloginWithValidCredentials" class="com.ja.test.AccountLoginTest"/>
-        <method signature="ApproveRequestTest.verifyPostAPIAndLogin()[pri:1, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyPostAPIAndLogin" class="com.ja.test.ApproveRequestTest"/>
-        <method signature="ApproveRequestTest.verifyRequestHeaderInApproveRequest()[pri:2, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyRequestHeaderInApproveRequest" class="com.ja.test.ApproveRequestTest"/>
-        <method signature="ApproveRequestTest.verifyCourseRequestApproved()[pri:7, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyCourseRequestApproved" class="com.ja.test.ApproveRequestTest"/>
-        <method signature="ApproveRequestTest.verifyRequestFieldsTitle()[pri:3, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyRequestFieldsTitle" class="com.ja.test.ApproveRequestTest"/>
-        <method signature="ApproveRequestTest.verifyTableData()[pri:6, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyTableData" class="com.ja.test.ApproveRequestTest"/>
-        <method signature="ApproveRequestTest.verifyTableHeader()[pri:5, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyTableHeader" class="com.ja.test.ApproveRequestTest"/>
-        <method signature="ApproveRequestTest.verifyTotalNumberOfCourseRequest()[pri:4, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyTotalNumberOfCourseRequest" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="AccountLoginTest.verifyloginWithInValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.ja.test.AccountLoginTest@e25b2fe]" name="verifyloginWithInValidCredentials" class="com.ja.test.AccountLoginTest"/>
+        <method signature="AccountLoginTest.verifyloginWithValidCredentials()[pri:2, instance:com.ja.test.AccountLoginTest@e25b2fe]" name="verifyloginWithValidCredentials" class="com.ja.test.AccountLoginTest"/>
+        <method signature="ApproveRequestTest.verifyPostAPIAndLogin()[pri:1, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyPostAPIAndLogin" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="ApproveRequestTest.verifyRequestHeaderInApproveRequest()[pri:2, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyRequestHeaderInApproveRequest" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="ApproveRequestTest.verifyCourseRequestApproved()[pri:7, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyCourseRequestApproved" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="ApproveRequestTest.verifyRequestFieldsTitle()[pri:3, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyRequestFieldsTitle" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="ApproveRequestTest.verifyTableData()[pri:6, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyTableData" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="ApproveRequestTest.verifyTableHeader()[pri:5, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyTableHeader" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="ApproveRequestTest.verifyTotalNumberOfCourseRequest()[pri:4, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyTotalNumberOfCourseRequest" class="com.ja.test.ApproveRequestTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="AccountLoginTest.verifyloginWithValidCredentials()[pri:2, instance:com.ja.test.AccountLoginTest@3f49dace]" name="verifyloginWithValidCredentials" class="com.ja.test.AccountLoginTest"/>
-        <method signature="ApproveRequestTest.verifyPostAPIAndLogin()[pri:1, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyPostAPIAndLogin" class="com.ja.test.ApproveRequestTest"/>
-        <method signature="ApproveRequestTest.verifyRequestHeaderInApproveRequest()[pri:2, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyRequestHeaderInApproveRequest" class="com.ja.test.ApproveRequestTest"/>
-        <method signature="ApproveRequestTest.verifyCourseRequestApproved()[pri:7, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyCourseRequestApproved" class="com.ja.test.ApproveRequestTest"/>
-        <method signature="ApproveRequestTest.verifyTableData()[pri:6, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyTableData" class="com.ja.test.ApproveRequestTest"/>
-        <method signature="ApproveRequestTest.verifyTotalNumberOfCourseRequest()[pri:4, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyTotalNumberOfCourseRequest" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="AccountLoginTest.verifyloginWithValidCredentials()[pri:2, instance:com.ja.test.AccountLoginTest@e25b2fe]" name="verifyloginWithValidCredentials" class="com.ja.test.AccountLoginTest"/>
+        <method signature="ApproveRequestTest.verifyPostAPIAndLogin()[pri:1, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyPostAPIAndLogin" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="ApproveRequestTest.verifyRequestHeaderInApproveRequest()[pri:2, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyRequestHeaderInApproveRequest" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="ApproveRequestTest.verifyCourseRequestApproved()[pri:7, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyCourseRequestApproved" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="ApproveRequestTest.verifyTableData()[pri:6, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyTableData" class="com.ja.test.ApproveRequestTest"/>
+        <method signature="ApproveRequestTest.verifyTotalNumberOfCourseRequest()[pri:4, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyTotalNumberOfCourseRequest" class="com.ja.test.ApproveRequestTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Base_Test" duration-ms="3" started-at="2018-12-18T18:44:34Z" finished-at="2018-12-18T18:44:34Z">
-    </test> <!-- Base_Test -->
-    <test name="Accountlogintest class Test Classes" duration-ms="59221" started-at="2018-12-18T18:44:34Z" finished-at="2018-12-18T18:45:33Z">
+    <test name="Accountlogintest class Test Classes" duration-ms="55329" started-at="2018-12-19T19:19:20Z" finished-at="2018-12-19T19:20:15Z">
       <class name="com.ja.test.AccountLoginTest">
-        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.ja.test.AccountLoginTest@3f49dace]" name="initDriver" is-config="true" duration-ms="504" started-at="2018-12-19T00:14:34Z" finished-at="2018-12-19T00:14:35Z">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.ja.test.AccountLoginTest@e25b2fe]" name="initDriver" is-config="true" duration-ms="515" started-at="2018-12-20T00:49:20Z" finished-at="2018-12-20T00:49:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="verifyloginWithInValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.ja.test.AccountLoginTest@3f49dace]" name="verifyloginWithInValidCredentials" duration-ms="9720" started-at="2018-12-19T00:14:35Z" description="Verification of login screen with invalid credentials" data-provider="Datafactory" finished-at="2018-12-19T00:14:45Z">
+        <test-method status="PASS" signature="verifyloginWithInValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.ja.test.AccountLoginTest@e25b2fe]" name="verifyloginWithInValidCredentials" duration-ms="9599" started-at="2018-12-20T00:49:21Z" description="Verification of login screen with invalid credentials" data-provider="Datafactory" finished-at="2018-12-20T00:49:31Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginWithInValidCredentials -->
-        <test-method status="PASS" signature="verifyloginWithInValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.ja.test.AccountLoginTest@3f49dace]" name="verifyloginWithInValidCredentials" duration-ms="13061" started-at="2018-12-19T00:14:45Z" description="Verification of login screen with invalid credentials" data-provider="Datafactory" finished-at="2018-12-19T00:14:58Z">
+        <test-method status="PASS" signature="verifyloginWithInValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.ja.test.AccountLoginTest@e25b2fe]" name="verifyloginWithInValidCredentials" duration-ms="11518" started-at="2018-12-20T00:49:31Z" description="Verification of login screen with invalid credentials" data-provider="Datafactory" finished-at="2018-12-20T00:49:42Z">
           <params>
             <param index="0">
               <value>
@@ -64,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginWithInValidCredentials -->
-        <test-method status="PASS" signature="verifyloginWithInValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.ja.test.AccountLoginTest@3f49dace]" name="verifyloginWithInValidCredentials" duration-ms="13104" started-at="2018-12-19T00:14:58Z" description="Verification of login screen with invalid credentials" data-provider="Datafactory" finished-at="2018-12-19T00:15:11Z">
+        <test-method status="PASS" signature="verifyloginWithInValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.ja.test.AccountLoginTest@e25b2fe]" name="verifyloginWithInValidCredentials" duration-ms="11609" started-at="2018-12-20T00:49:42Z" description="Verification of login screen with invalid credentials" data-provider="Datafactory" finished-at="2018-12-20T00:49:54Z">
           <params>
             <param index="0">
               <value>
@@ -80,59 +78,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginWithInValidCredentials -->
-        <test-method status="PASS" signature="verifyloginWithValidCredentials()[pri:2, instance:com.ja.test.AccountLoginTest@3f49dace]" name="verifyloginWithValidCredentials" duration-ms="22383" started-at="2018-12-19T00:15:11Z" description="Verification of login screen with valid credentails" finished-at="2018-12-19T00:15:33Z">
+        <test-method status="PASS" signature="verifyloginWithValidCredentials()[pri:2, instance:com.ja.test.AccountLoginTest@e25b2fe]" name="verifyloginWithValidCredentials" duration-ms="21662" started-at="2018-12-20T00:49:54Z" description="Verification of login screen with valid credentails" finished-at="2018-12-20T00:50:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginWithValidCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ja.test.AccountLoginTest@3f49dace]" name="teardown" is-config="true" duration-ms="0" started-at="2018-12-19T00:15:33Z" finished-at="2018-12-19T00:15:33Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ja.test.AccountLoginTest@e25b2fe]" name="teardown" is-config="true" duration-ms="1" started-at="2018-12-20T00:50:15Z" finished-at="2018-12-20T00:50:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ja.test.AccountLoginTest -->
     </test> <!-- Accountlogintest class Test Classes -->
-    <test name="Approverequesttest class Test Classes" duration-ms="37667" started-at="2018-12-18T18:45:33Z" finished-at="2018-12-18T18:46:11Z">
+    <test name="Approverequesttest class Test Classes" duration-ms="36466" started-at="2018-12-19T19:20:15Z" finished-at="2018-12-19T19:20:52Z">
       <class name="com.ja.test.ApproveRequestTest">
-        <test-method status="PASS" signature="initStart()[pri:0, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="initStart" is-config="true" duration-ms="5683" started-at="2018-12-19T00:14:28Z" finished-at="2018-12-19T00:14:34Z">
+        <test-method status="PASS" signature="initStart()[pri:0, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="initStart" is-config="true" duration-ms="5348" started-at="2018-12-20T00:49:15Z" finished-at="2018-12-20T00:49:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initStart -->
-        <test-method status="PASS" signature="courseRequestAPI()[pri:0, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="courseRequestAPI" is-config="true" duration-ms="510" started-at="2018-12-19T00:15:33Z" finished-at="2018-12-19T00:15:34Z">
+        <test-method status="PASS" signature="courseRequestAPI()[pri:0, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="courseRequestAPI" is-config="true" duration-ms="481" started-at="2018-12-20T00:50:15Z" finished-at="2018-12-20T00:50:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseRequestAPI -->
-        <test-method status="PASS" signature="verifyPostAPIAndLogin()[pri:1, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyPostAPIAndLogin" duration-ms="11520" started-at="2018-12-19T00:15:34Z" description="Verification of API Post request and Login to UMS screen" finished-at="2018-12-19T00:15:45Z">
+        <test-method status="PASS" signature="verifyPostAPIAndLogin()[pri:1, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyPostAPIAndLogin" duration-ms="11266" started-at="2018-12-20T00:50:16Z" description="Verification of API Post request and Login to UMS screen" finished-at="2018-12-20T00:50:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPostAPIAndLogin -->
-        <test-method status="PASS" signature="verifyRequestHeaderInApproveRequest()[pri:2, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyRequestHeaderInApproveRequest" duration-ms="3284" started-at="2018-12-19T00:15:45Z" description="Verified the request header title on Approve Request Screen" depends-on-methods="com.ja.test.ApproveRequestTest.verifyPostAPIAndLogin" finished-at="2018-12-19T00:15:49Z">
+        <test-method status="PASS" signature="verifyRequestHeaderInApproveRequest()[pri:2, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyRequestHeaderInApproveRequest" duration-ms="3536" started-at="2018-12-20T00:50:27Z" description="Verified the request header title on Approve Request Screen" depends-on-methods="com.ja.test.ApproveRequestTest.verifyPostAPIAndLogin" finished-at="2018-12-20T00:50:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRequestHeaderInApproveRequest -->
-        <test-method status="PASS" signature="verifyRequestFieldsTitle()[pri:3, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyRequestFieldsTitle" duration-ms="2165" started-at="2018-12-19T00:15:49Z" description="Verified the request fields" depends-on-methods="com.ja.test.ApproveRequestTest.verifyRequestHeaderInApproveRequest" finished-at="2018-12-19T00:15:51Z">
+        <test-method status="PASS" signature="verifyRequestFieldsTitle()[pri:3, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyRequestFieldsTitle" duration-ms="2133" started-at="2018-12-20T00:50:31Z" description="Verified the request fields" depends-on-methods="com.ja.test.ApproveRequestTest.verifyRequestHeaderInApproveRequest" finished-at="2018-12-20T00:50:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRequestFieldsTitle -->
-        <test-method status="PASS" signature="verifyTotalNumberOfCourseRequest()[pri:4, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyTotalNumberOfCourseRequest" duration-ms="2297" started-at="2018-12-19T00:15:51Z" description="Verifed the number of course request" depends-on-methods="com.ja.test.ApproveRequestTest.verifyRequestHeaderInApproveRequest" finished-at="2018-12-19T00:15:53Z">
+        <test-method status="PASS" signature="verifyTotalNumberOfCourseRequest()[pri:4, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyTotalNumberOfCourseRequest" duration-ms="2162" started-at="2018-12-20T00:50:33Z" description="Verifed the number of course request" depends-on-methods="com.ja.test.ApproveRequestTest.verifyRequestHeaderInApproveRequest" finished-at="2018-12-20T00:50:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTotalNumberOfCourseRequest -->
-        <test-method status="PASS" signature="verifyTableHeader()[pri:5, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyTableHeader" duration-ms="2272" started-at="2018-12-19T00:15:53Z" description="Verified the table header in Approve Request Screeen" depends-on-methods="com.ja.test.ApproveRequestTest.verifyRequestHeaderInApproveRequest" finished-at="2018-12-19T00:15:55Z">
+        <test-method status="PASS" signature="verifyTableHeader()[pri:5, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyTableHeader" duration-ms="2145" started-at="2018-12-20T00:50:35Z" description="Verified the table header in Approve Request Screeen" depends-on-methods="com.ja.test.ApproveRequestTest.verifyRequestHeaderInApproveRequest" finished-at="2018-12-20T00:50:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTableHeader -->
-        <test-method status="PASS" signature="verifyTableData()[pri:6, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyTableData" duration-ms="4596" started-at="2018-12-19T00:15:55Z" description="Verified the table data in Approve Request Screen" depends-on-methods="com.ja.test.ApproveRequestTest.verifyRequestHeaderInApproveRequest" finished-at="2018-12-19T00:16:00Z">
+        <test-method status="PASS" signature="verifyTableData()[pri:6, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyTableData" duration-ms="4339" started-at="2018-12-20T00:50:37Z" description="Verified the table data in Approve Request Screen" depends-on-methods="com.ja.test.ApproveRequestTest.verifyRequestHeaderInApproveRequest" finished-at="2018-12-20T00:50:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTableData -->
-        <test-method status="PASS" signature="verifyCourseRequestApproved()[pri:7, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="verifyCourseRequestApproved" duration-ms="10714" started-at="2018-12-19T00:16:00Z" description="Verified that Course Request is Approved" depends-on-methods="com.ja.test.ApproveRequestTest.verifyRequestHeaderInApproveRequest" finished-at="2018-12-19T00:16:11Z">
+        <test-method status="PASS" signature="verifyCourseRequestApproved()[pri:7, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="verifyCourseRequestApproved" duration-ms="10391" started-at="2018-12-20T00:50:41Z" description="Verified that Course Request is Approved" depends-on-methods="com.ja.test.ApproveRequestTest.verifyRequestHeaderInApproveRequest" finished-at="2018-12-20T00:50:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCourseRequestApproved -->
-        <test-method status="PASS" signature="deleteRecord1()[pri:0, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="deleteRecord1" is-config="true" duration-ms="280" started-at="2018-12-19T00:16:11Z" finished-at="2018-12-19T00:16:11Z">
+        <test-method status="PASS" signature="deleteRecord1()[pri:0, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="deleteRecord1" is-config="true" duration-ms="0" started-at="2018-12-20T00:50:52Z" finished-at="2018-12-20T00:50:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteRecord1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ja.test.ApproveRequestTest@5cb9f472]" name="tearDown" is-config="true" duration-ms="2247" started-at="2018-12-19T00:16:11Z" finished-at="2018-12-19T00:16:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ja.test.ApproveRequestTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="2020" started-at="2018-12-20T00:50:52Z" finished-at="2018-12-20T00:50:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

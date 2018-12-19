@@ -9,11 +9,15 @@
       <class name="com.ja.test.ApproveRequestTest">
         <methods>
           <include name="verifyTotalNumberOfCourseRequest"/>
+          <include name="verifyTableData"/>
           <include name="verifyPostAPIAndLogin"/>
           <include name="deleteRecord1"/>
+          <include name="verifyTableHeader"/>
           <include name="tearDown"/>
+          <include name="verifyCourseRequestApproved"/>
           <include name="initStart"/>
           <include name="verifyRequestHeaderInApproveRequest"/>
+          <include name="verifyRequestFieldsTitle"/>
           <include name="courseRequestAPI"/>
         </methods>
       </class> <!-- com.ja.test.ApproveRequestTest -->

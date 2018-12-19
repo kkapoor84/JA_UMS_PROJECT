@@ -20,7 +20,7 @@ public class AccountLoginTest extends BaseTestClass {
 	}
 
 	@Test(description = "Verification of login screen with invalid credentials", priority = 1, dataProvider = "Datafactory", dataProviderClass = Excel_To_DataProvider.class, groups = {
-			"regression" })
+			"regression"} )
 	public void verifyloginWithInValidCredentials(String uname, String pwd) throws Exception {
 
 		alPage.loginSetup(uname, pwd);
@@ -38,6 +38,7 @@ public class AccountLoginTest extends BaseTestClass {
 
 	@AfterClass(alwaysRun = true)
 	public void teardown() {
+		System.out.println("Test Class 'AccountLoginTest' test cases have been run successfully");
 	}
 
 }

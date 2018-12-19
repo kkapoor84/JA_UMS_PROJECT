@@ -91,6 +91,6 @@ public class ApproveRequestTest extends BaseTestClass  {
 
 	@AfterClass(alwaysRun = true)
 	public void deleteRecord1() {
-		dbObject.DeleteRecord(classId);
+	//	dbObject.DeleteRecord(classId);
 	}
 }

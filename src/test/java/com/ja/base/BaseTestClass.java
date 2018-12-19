@@ -6,6 +6,11 @@ import static com.ja.base.DriverSetup.*;
 
 public class BaseTestClass {
 
+	
+	public BaseTestClass() {
+		System.out.println("constructor of base class");
+	}
+	
 	@BeforeSuite
 	public void initStart() throws Exception {
 		initialization();

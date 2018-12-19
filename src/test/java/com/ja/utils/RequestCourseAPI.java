@@ -2,15 +2,13 @@ package com.ja.utils;
 
 import static com.jayway.restassured.RestAssured.given;
 
-import org.json.JSONException;
-import org.testng.Assert;
-
+//import org.json.JSONException;
 import com.jayway.restassured.builder.RequestSpecBuilder;
 import com.jayway.restassured.response.Response;
 import com.jayway.restassured.specification.RequestSpecification;
 
 public class RequestCourseAPI {
-	public boolean httpPost(String classId) throws JSONException, InterruptedException {
+	public boolean httpPost(String classId) throws InterruptedException {
 
 		System.out.println("***** Post API for course request fro BCRM********");
 		// Initializing Rest API's URL
@@ -49,7 +47,7 @@ public class RequestCourseAPI {
 
 	}
 
-	public boolean httpPost2(String classId) throws JSONException, InterruptedException {
+	public boolean httpPost2(String classId) throws InterruptedException {
 		System.out.println("******POST API to enroll user for the approved request****");
 		// Initializing Rest API's URL
 		String APIUrl = "http://182.71.186.218:7800/bcrm/api/UserEnrollment?api_key=YmNybS1rZXk=";

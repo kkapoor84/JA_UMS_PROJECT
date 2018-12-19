@@ -6,7 +6,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.testng.Assert;
 
 public class DataBaseUtil {
 
@@ -56,7 +55,7 @@ public class DataBaseUtil {
 			con.close();
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("thrpwing excdption");
+			System.out.println("throwing exception");
 			
 		}
 	}

@@ -9,12 +9,12 @@ import java.util.Map;
 import java.util.Properties;
 
 public class Property_File_Reader {
-
 	public static String propertyfilepath = System.getProperty("user.dir")
 			+ "/src/test/java/com/ja/config/config.properties";
 	static Properties P;
+	static String value;
 
-	public Property_File_Reader() throws Exception {
+	public static void Property_File_Reader() throws Exception {
 		File F = new File(propertyfilepath);
 		try {
 			FileInputStream FIS = new FileInputStream(F);
@@ -26,9 +26,11 @@ public class Property_File_Reader {
 
 	}
 
-	public static String getvalue(String key) {
-		String value = P.getProperty(key);
+	public static String getvalue(String key) throws Exception {
+		if (P == null) {
+			Property_File_Reader();
+		}
+		value = P.getProperty(key);
 		return value;
 	}
-
 }

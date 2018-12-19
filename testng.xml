@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="UAtestSuit" parallel="true">
+<suite name="UAtestSuit" parallel="none">
 
 	<listeners>
 		<listener class-name="com.ja.utils.ExtentReporterNG" />
 	</listeners>
 
-	<test name="Base_Test" preserve-order="true">
-		<classes>
-			<class name="com.ja.base.BaseTestClass" />
-		</classes>
-	</test>
-
-	<test name="Accountlogintest class Test Classes" preserve-order="true">
+ 	<test name="Accountlogintest class Test Classes" preserve-order="true">
 		<classes>
 			<class name="com.ja.test.AccountLoginTest" />
 		</classes>
-	</test>
+	</test> 
 
-	<test name="Approverequesttest class Test Classes" preserve-order="true">
+  <test name="Approverequesttest class Test Classes" preserve-order="true">
 		<classes>
 			<class name="com.ja.test.ApproveRequestTest">
 			</class>
 		</classes>
-	</test>
+	</test> 
 
 
 </suite> <!-- Suite -->
