@@ -45,8 +45,8 @@ public class DataBaseUtil {
 
 			Statement stmt = con.createStatement();
 			String query1 = "delete from [SessionEnrollment] where ProgramSessionId in ( select max (programsessionid) from programsession)";
-			String query2 = "delete from ProgramSession where classnumber ='" + classId + "'";
-			String query3 = "delete from SessionRequest where classnumber ='" + classId + "'";
+			String query2 = "delete from ProgramSession where classnumber ='" + classId + "'"	;
+			String query3 = "delete from SessionRequest where ProgramId=12";
 
 			int a = stmt.executeUpdate(query1);
 			int b = stmt.executeUpdate(query2);

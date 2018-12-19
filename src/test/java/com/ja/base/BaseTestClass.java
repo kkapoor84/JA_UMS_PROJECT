@@ -6,13 +6,13 @@ import static com.ja.base.DriverSetup.*;
 
 public class BaseTestClass {
 
-	@BeforeSuite
+	@BeforeSuite(alwaysRun = true)
 	public void initStart() throws Exception {
 		initialization();
 		openURL();
 	}
 
-	@AfterSuite
+	@AfterSuite(alwaysRun = true)
 	public void tearDown() {
 		driver.quit();
 	}
